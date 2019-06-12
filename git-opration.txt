@@ -1,0 +1,25 @@
+git配置用户信息
+git config --global user.name 用户名
+git config --global user.email 用户邮箱
+
+初始化仓库  git init
+
+添加修改文件到缓存区 git add 文件名
+添加全部文件到缓存区 git add .
+
+提交文件到本地仓库 git commit -m 描述信息
+
+查看仓库信息  git status
+
+查看日志  git log
+查看详细日志  git reflog
+查看具体的日志信息  git log --pretty=oneline
+
+版本更换  git reset --hard 版本号
+版本更换  git reset --hard HEAD^
+版本更换  git reset --hard HEAD~第几次版本号
+
+删除文件 rm 文件
+
+
+误删文件回复 git checkout -- 文件名
