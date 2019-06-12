@@ -45,4 +45,23 @@ git config --global user.email 用户邮箱
 
 拉取远程库内容到本地 git pull origin master [--allow-unrelated-histories]
 
+查看分支  git branch
+
+
+创建分支 git branch 分支名称
+创建的同时切换到分支  git checkout -b 分支名称
+切换分支 git checkout 分支名称
+
+分支合并 
+1. 选中切换到要合并到的分支
+2. 执行 git merge 分支名
+
+
+推送分支到远程
+1. 切换到分支
+2. git push -u origin 分支名
+
+
+
+
 
