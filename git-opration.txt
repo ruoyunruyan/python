@@ -19,7 +19,27 @@ git config --global user.email 用户邮箱
 版本更换  git reset --hard HEAD^
 版本更换  git reset --hard HEAD~第几次版本号
 
+修改文件后未添加到缓存区的撤销操作 git checkout 文件名
+修改文件后添加到缓存区的撤销操作
+1. git reset HEAD 文件名
+2. git checkout 文件名
+
+
 删除文件 rm 文件
 
 
 误删文件回复 git checkout -- 文件名
+
+为网站添加秘钥
+1. 执行 ssh-keygen -t rsa -C 注册邮箱
+2. 记录 .ssh目录的位置
+3. cd 目录到 .ssh
+4. cat 文件 id_rsa.pub 文件, 复制内容
+4. 登陆 git 账户, 在settings 中找到 SSH and GRG keys
+5. 选择 New SSH key
+6. 添加title 和粘贴复制信息完成添加
+7. 验证是否添加 ssh -T git@github.com
+
+关联远程仓库  git remote add origin 仓库ssh地址
+删除关联 git remote rm origin 关联仓库地址
+
