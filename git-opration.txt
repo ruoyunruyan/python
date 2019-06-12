@@ -63,6 +63,8 @@ git config --global user.email 用户邮箱
 
 分支上 add 和 commit 操作不会影响 其他分支[master]
 
-
-
+在本地创建远程分支
+1. 在本地创建分支并切换到分支上 git checkout -b 分支名
+2. 执行 git push --set-upstream origin 分支名
+3. 
 
