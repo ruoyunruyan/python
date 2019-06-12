@@ -61,7 +61,7 @@ git config --global user.email 用户邮箱
 1. 切换到分支
 2. git push -u origin 分支名
 
-
+分支hjz上的操作, master上为什么也可以看到呢
 
 
 
