@@ -61,6 +61,7 @@ git config --global user.email 用户邮箱
 1. 切换到分支
 2. git push -u origin 分支名
 
+分支上 add 和 commit 操作不会影响 其他分支[master]
 
 
 
