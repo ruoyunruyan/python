@@ -43,3 +43,6 @@ git config --global user.email 用户邮箱
 关联远程仓库  git remote add origin 仓库ssh地址
 删除关联 git remote rm origin 关联仓库地址
 
+拉取远程库内容到本地 git pull origin master [--allow-unrelated-histories]
+
+
